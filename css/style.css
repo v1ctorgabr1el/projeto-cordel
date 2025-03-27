@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--font2)
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --font0: "Boldonse", system-ui;
+    --font1:"Sriracha", cursive;
+    --font2:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+
+
+}
+
+header h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--font0);
+    font-size: 5vw;
+}
+
+header p{
+    padding-bottom: 50px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--font1);
+    font-size: 3vw;
+}
+
+section > p{
+    padding-bottom: 3em;
+}
+
+.normal{
+    background-color: lightslategray;
+}
+
+.imagem{
+    background-color: lightseagreen;
+    box-shadow: inset 1px 1px 6px 0px rgba(0, 0, 0, 0.678);
+}
+
+#img01{
+    background-image: url(../imagens/background001.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#img02{
+    background-image: url(../imagens/background002.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.imagem p{
+    margin: -30px;
+    padding: 6px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.473);
+    color: white;
+    text-shadow: 1px 1px 0px black;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
